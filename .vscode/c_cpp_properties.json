@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Switch (Windows Dev)",
+            "defines": [
+                "_DEBUG"
+            ],
+            "compilerPath": "C:/devkitPro/devkitA64/bin/aarch64-none-elf-g++.exe",
+            "compilerArgs": [
+                "-march=armv8-a+crc+crypto",
+                "-mtune=cortex-a57",
+                "-mtp=soft",
+                "-fPIE",
+                "-Wall",
+                "-Wextra",
+                "-Wno-psabi"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "gcc-arm64",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/source/**",
+                "C:/devkitPro/devkitA64/aarch64-none-elf/include/**",
+                "C:/devkitPro/devkitA64/lib/**",
+                "C:/devkitPro/libnx/include/**",
+                "C:/devkitPro/portlibs/switch/include/**"
+            ]
+        }
+    ],
+    "version": 4
+}
